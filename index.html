@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>RPS</title>
+</head>
+
+<body>
+    <div id="frame1">
+        <div id="upper">
+            <div class="Upperleft">
+                <label class="Heading" for="">Rock</label>
+                <label class="Heading" for="">paper</label>
+                <label class="Heading" for="">Scissor</label>
+            </div>
+            <button id="reset"><img src="icons8-reset-24.png" alt=""></button>
+            <div class="UpperRight">
+                <div class="computerDiv"><label for="" class="ComScore">COMPUTER SCORE</label><label id="PcScore"
+                    for="">0</label></div>
+                    <div Class="UserDiv"><label for="" class="YourScore">YOUR</label><label
+                        class="YourScore">SCORE</label><label for="" id="UserScore">0</label></div>
+                    </div>
+                </div>
+                
+                <div id="lower">
+                    <button value="" id="img1"><img src="icons8-hand-64 1.svg" alt="submit"></button>
+                    <button value="" id="img2"><img src="17911 1.svg" alt="submit"></button>
+                    <button value="" id="img3"><img src="icons8-fist-67 1.svg" alt="submit"></button>
+                </div>
+                
+                <button id="myButton">RULES</button>
+                <div class="popup">
+                    <button id="closeButton"><img id="cancel" src="cancel.png" alt=""></button>
+                    <h2>Game Rules</h2>
+                    <ul>
+                        
+                        <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                        <li>gree ahead of time whether you'll count off “rock, paper, scissors, shoot” or just “rock, paper,
+                            scissors.”</li>
+                            <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                            <li>If both players lay down the same hand, each player lays down another hand</li>
+                        </ul>
+                        
+                    </div>
+                    
+                    <label id="YP" for="">You Picked</label>
+                    <label id="PP" for="">PC Picked</label>
+                    <div id="frame2">
+                        
+                        <img class="playerSelection" src="" alt="">
+                        <h2 class="Message">YOU WON</h2>
+                        <h3 class="Message2">AGAINST PC </h3>
+                        <button class="PA">PLAY AGAIN</button>
+                        <img class="PcSelection" src="" alt="">
+                        <div class="NextDiv"><button Id="Next">NEXT</button></div>
+                    </div>
+                    <div id="frame3">
+                        
+                        <img class="playerSelection" src="" alt="">
+                        <h2 class="Message">TIE UP</h2>
+                        
+                        <button class="PA">REPLAY</button>
+                        
+                        <img class="PcSelection" src="" alt="">
+                    </div>
+                    <div id="frame4">
+                        
+                        <img class="playerSelection" src="" alt="">
+                        <h2 class="Message">YOU LOST</h2>
+                        <h3 class="Message2">AGAINST PC </h3>
+                        <button class="PA">PLAY AGAIN</button>
+                        <img class="PcSelection" src="" alt="">
+                    </div>
+                </div>
+                <div Id="container">
+                    <!-- The confetti animation -->
+                    <div Id="background"><img src="Hurray.png" alt=""></div>
+                    <button id="PA2">PLAY AGAIN</button>
+                </div>
+                
+                <h1 id="hurray">Hurray!</h1>
+                <h2 id="hurray2">YOU WON THE GAME</h2>
+                
+                
+                
+                <script src="index.js" type="module"></script>
+            </body>
+            
+            </html>
